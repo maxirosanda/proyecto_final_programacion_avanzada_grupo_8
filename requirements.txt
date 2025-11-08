@@ -1,0 +1,22 @@
+# Librerías básicas
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+
+# Visualización
+matplotlib
+seaborn
+
+# Carga de datos desde Kaggle
+kagglehub[pandas-datasets]
+
+# Conexión a MongoDB Atlas
+pymongo
+dnspython
+certifi
+
+# Trabajo con notebooks
+jupyter
+ipykernel
