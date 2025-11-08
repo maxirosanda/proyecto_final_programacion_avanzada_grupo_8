@@ -1,3 +1,7 @@
+## Requisitos / Dependencias
+
+Este proyecto utiliza las siguientes librerías (si lo abrís en **Google Colab**, el entorno ya está preparado: solo tenés que ejecutar las celdas, sin configurar nada extra):
+
 # Librerías básicas
 numpy
 pandas

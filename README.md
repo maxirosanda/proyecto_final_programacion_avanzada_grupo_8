@@ -24,16 +24,10 @@ Además de entrenar y comparar distintos modelos, dejo todos los datos y resulta
 
 ## 2. Dataset
 
-- Fuente: Kaggle – `alejandroczernikier/properati-argentina-dataset`
-- Accedo al dataset usando la librería `kagglehub` con el adaptador `KaggleDatasetAdapter.PANDAS`.
-- Archivo principal utilizado: `entrenamiento.csv`.
+Fuente: Kaggle – alejandroczernikier/properati-argentina-dataset
 
-```python
-from kagglehub import KaggleDatasetAdapter, dataset_load
+Accedo al dataset usando la librería kagglehub con el adaptador KaggleDatasetAdapter.PANDAS.
 
-file_path = "entrenamiento.csv"
-df = dataset_load(
-    KaggleDatasetAdapter.PANDAS,
-    "alejandroczernikier/properati-argentina-dataset",
-    file_path,
-)
+Archivo principal utilizado: entrenamiento.csv.
+
+Si abrís el proyecto en Google Colab, el entorno ya está preparado para usar kagglehub, por lo que solo tenés que ejecutar las celdas para descargar y cargar el dataset automáticamente.
